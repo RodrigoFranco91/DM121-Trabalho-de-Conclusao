@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    background-color: #000;
+    color: #FFF;
+    padding: 0.3em;
+    text-align: center;
+    font-size: 0.80em;
+}
+
+#p-item{
+    margin-top: 2.5em;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.foto-perfil{
+    height: 210px;
+    border-radius: 50%;
+}
+
+#graduacao, #jrr{
+    margin-top: 2.5em;
+}
