@@ -350,6 +350,9 @@ header h1{
     padding-left: 0em;
 }
 
+#jrr, #lima{
+    padding-right: 2.5em;
+}
 
 @-webkit-keyframes aparece {
     from {
@@ -368,4 +371,26 @@ header h1{
     .palavras-home{
         display: none;
     }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+
+    li{
+        margin-bottom: 1em;
+    }
+
+    p{
+        text-align: justify;
+        letter-spacing: -0.5px;
+        width: 95%;
+    }
+
+    .foto-perfil{
+        height: 150px;
+        border-radius: 50%;
+    }
+
 }
