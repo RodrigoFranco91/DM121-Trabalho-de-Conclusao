@@ -339,6 +339,17 @@ header h1{
     transform: translateY(.5em) rotate(45deg);
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#perfil{
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
 
 @-webkit-keyframes aparece {
     from {
