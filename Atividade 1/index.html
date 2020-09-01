@@ -3,109 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Rodrigo Lima</title>
+    <title>CV - Rodrigo Lima</title>
 </head>
 <body>
     <header>
-        <img class="foto-perfil" src="img/perfil.JPG" alt="Foto de perfil de Rodrigo Franco de Lima.">
-        <h1>Rodrigo Franco de Lima</h1>
-        <h2>Desenvolvedor de Software.</h2>
+        <ul class="palavras-home">
+            <li class="palavra-home java">Java</li>
+            <li class="palavra-home c">C#</li>
+            <li class="palavra-home javascript">Javascript</li>
+            <li class="palavra-home css3">CSS3</li>
+            <li class="palavra-home html5">HTML5</li>
+            <li class="palavra-home react">REACT</li>
+            <li class="palavra-home angular">Angular</li>
+            <li class="palavra-home spring">Spring</li>
+            <li class="palavra-home kotlin">Kotlin</li>
+            <li class="palavra-home cloud">Cloud Computing</li>
+            <li class="palavra-home hibernate">Hibernate</li>
+            <li class="palavra-home jsp">JSP</li>
+            <li class="palavra-home jsf">JSF</li>
+            <li class="palavra-home jpa">JPA</li>
+            <li class="palavra-home jdbc">JDBC</li>
+            <li class="palavra-home aws">AWS</li>
+            <li class="palavra-home azure">Azure</li>
+            <li class="palavra-home gae">GAE</li>
+            <li class="palavra-home mysql">MySql</li>
+            <li class="palavra-home postgres">Postgres</li>
+            <li class="palavra-home firebase">Firebase</li>
+            <li class="palavra-home android">Android</li>
+        </ul>
+        <div class="header-container">
+            <img class="foto-perfil" src="img/perfil.JPG" alt="Foto de perfil de Rodrigo Franco de Lima.">
+            <h1>Rodrigo Franco de Lima</h1>
+            <h3>Desenvolvedor de Software</h3>
+        </div> 
     </header>
     <main>
-        <section id="contato">
-            <p><span class="strong">Cidade: </span>Pouso Alegre - MG.</p>
-            <p><span class="strong">Endereço: </span>Praça Senador José Bento, n° 1 - Centro.</p>
-            <p><span class="strong">CEP: 37550-000</span></p>
-            <p><span class="strong">E-mail: </span>rodrigofrancodelima@gmail.com</p>
-            <p><span class="strong">Celular: </span>(35) 99740-0907</p>
-            <p><span class="strong">Site: </span><a href="https://github.com/RodrigoFranco91">github.com/RodrigoFranco91</a></p>
-        </section>
-        <section id="perfil">
-            <h2>Perfil</h2>
-            <p>Profissional buscando recolocação no mercado de trabalho como Analista/Desenvolvedor de Sistemas.</p>
-            <p>Sou graduado em Sistemas de Informação, estou cursando Pós-graduação (especialização) em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing, e realizei treinamentos sobre tecnologias de desenvolvimento Java Web (Back-end e Front-end) com a instituição Caelum.</p>
-        </section>
-        <section id="formacao">
-            <h2>Formação Acadêmica</h2>
-            <section id="pos-graduacao">
-                <p class="strong">Cursando Pós-graduação em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing.</p>
-                <p><span class="strong">Previsão de conclusão:</span> dezembro de 2020.</p>
-                <p><span class="strong">Instituição:</span> Inatel - Instituto Nacional de Telecomunicações.</p>
-                <p><span class="strong">Local:</span> Santa Rita do Sapucaí – MG.</p>
+            <nav>
+                <ul class="icones-redes-sociais">
+                    <li>
+                        <a href="https://github.com/RodrigoFranco91" class="github" data-tooltip="Veja meus projetos">
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" class="twitter" data-tooltip="Siga-me no Twitter">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://br.linkedin.com/in/rodrigofrancodelima" class="linkedin" data-tooltip="Veja meu currículo">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        <div class="main-container">
+            <section id="perfil">
+                <h2>Perfil</h2>
+                <p>Profissional buscando recolocação no mercado de trabalho como Analista/Desenvolvedor de Sistemas.</p>
+                <p>Sou graduado em Sistemas de Informação, estou cursando Pós-graduação (especialização) em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing, e realizei treinamentos sobre tecnologias de desenvolvimento Java Web (Back-end e Front-end) com a instituição Caelum.</p>
             </section>
-            <section id="graduacao">
-                <p><span class="strong">Graduação em Sistemas de Informação</span> – Concluída em abril de 2016.</p>
-                <p><span class="strong">Instituição:</span> FAI – Centro de ensino superior em Gestão, Tecnologia e Educação.</p>
-                <p><span class="strong">Local:</span> Santa Rita do Sapucaí – MG.</p>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p><span class="strong">Cidade: </span>Pouso Alegre - MG.</p>
+                <p><span class="strong">Endereço: </span>Praça Senador José Bento, n° 1 - Centro.</p>
+                <p><span class="strong">CEP: 37550-000</span></p>
+                <p><span class="strong">E-mail: </span>rodrigofrancodelima@gmail.com</p>
+                <p><span class="strong">Celular: </span>(35) 99740-0907</p>
+                <p><span class="strong">Site: </span><a href="https://github.com/RodrigoFranco91">github.com/RodrigoFranco91</a></p>
             </section>
-        </section>
-        <section id="formacao-complementar">
-            <h2>Cursos Complementares</h2>
-            <ul>
-                <li><span class="strong">Desenvolvimento Web com HTML, CSS e JavaScript</span> – Caelum – 40h – São Paulo-SP.</li>
-                <li><span class="strong">Java para Desenvolvimento Web</span> – Caelum – 40h – São Paulo-SP.</li>
-                <li><span class="strong">Persistência com JPA, Hibernate e EJB lite</span> – Caelum – 40h – São Paulo-SP.</li>
-                <li><span class="strong">Web rica com JSF 2, Primefaces 4 e CDI</span> – Caelum – 32h – São Paulo-SP.</li>
-            </ul>
-        </section>
-        <section id="experiencia">
-            <h2>Experiência Profissional</h2>
-            <section id="lima">
-                <p><span class="strong">01/2016 – 06/2020 - LIMA E FRANCO LTDA.</span></p>
-                <p><span class="strong">Cargo:</span> Auxiliar Administrativo.</p>
-                <p><span class="strong">Atividades desempenhadas:</span> controle de contas a pagar/receber, atendimento ao cliente, cadastro e
-                emissão das notas fiscais de entrada/saída, emissão de arquivos fiscais, cadastro de fornecedores e
-                de produtos no sistema, suporte ao sistema informatizado.</p>
-                <p><span class="strong">Local:</span> Pouso Alegre - MG.</p>
+            <section id="formacao">
+                <h2>Formação Acadêmica</h2>
+                <section id="pos-graduacao">
+                    <p class="strong">Cursando Pós-graduação em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing.</p>
+                    <p><span class="strong">Previsão de conclusão:</span> dezembro de 2020.</p>
+                    <p><span class="strong">Instituição:</span> Inatel - Instituto Nacional de Telecomunicações.</p>
+                    <p><span class="strong">Local:</span> Santa Rita do Sapucaí – MG.</p>
+                </section>
+                <section id="graduacao">
+                    <p><span class="strong">Graduação em Sistemas de Informação</span> – Concluída em abril de 2016.</p>
+                    <p><span class="strong">Instituição:</span> FAI – Centro de ensino superior em Gestão, Tecnologia e Educação.</p>
+                    <p><span class="strong">Local:</span> Santa Rita do Sapucaí – MG.</p>
+                </section>
             </section>
-            <section id="jrr">
-                <p><span class="strong">01/2015 – 12/2015 – JRR SISTEMAS DE INFORMAÇÃO E CONSULTORIA LTDA-ME.</span></p>
-                <p><span class="strong">Cargo:</span> Estagiário em Análise e Desenvolvimento de Sistemas.</p>
-                <p><span class="strong">Atividades desempenhadas:</span> modelagem das bases de dados de acordo com os requisitos funcionais
-                levantados, codificação dos scripts SQL, criação das páginas web, programação na linguagem Java
-                com o framework Spring.</p>
-                <p><span class="strong">Local:</span> Santa Rita do Sapucaí – MG.</p>
+            <section id="formacao-complementar">
+                <h2>Cursos Complementares</h2>
+                <ul>
+                    <li><span class="strong">Desenvolvimento Web com HTML, CSS e JavaScript</span> – Caelum – 40h – São Paulo-SP.</li>
+                    <li><span class="strong">Java para Desenvolvimento Web</span> – Caelum – 40h – São Paulo-SP.</li>
+                    <li><span class="strong">Persistência com JPA, Hibernate e EJB lite</span> – Caelum – 40h – São Paulo-SP.</li>
+                    <li><span class="strong">Web rica com JSF 2, Primefaces 4 e CDI</span> – Caelum – 32h – São Paulo-SP.</li>
+                </ul>
             </section>
-        </section>
-        <section id="conhecimentos">
-            <h2>Qualificações/Habilidades</h2>
-            <ul>
-                <li><span class="strong">Linguagens de programação:</span> Java, C#, JavaScript.</li>
-                <li><span class="strong">Linguagens de marcação/estilo:</span> HTML5, CSS3.</li>
-                <li><span class="strong">Banco de dados (SGBD):</span> MySql, PostgreSQL.</li>
-                <li><span class="strong">Frameworks:</span> Spring, Hibernate.</li>
-                <li><span class="strong">Ferramentas CASE:</span> Visual Paradigm, Eclipse, IntelliJ, Postman.</li>
-                <li><span class="strong">Controladores de versões:</span><a href="https://github.com/RodrigoFranco91"> Git/Github.</a></li>
-            </ul>
-        </section>
-        <section id="projetos">
-            <h2>Projetos Realizados</h2>
-            <ul>
-                <li><a href="https://github.com/RodrigoFranco91/admissional">Projeto de Teste Admissional da empresa B2ML.</a></li>
-                <li><a href="https://github.com/RodrigoFranco91/DM114-Desenvolvimento-Android-com-Firebase">Projeto Android com Firebase.</a></li>
-                <li><a href="https://github.com/RodrigoFranco91/DM117-Game-Unity">Game feito em Unity.</a></li>
-                <li><a href="https://github.com/RodrigoFranco91/DM111-Desenvolvimento-de-Web-Services-com-seguranca-em-Java-no-Google-App-Engin">Projeto Java com Google App Engine.</a></li>
-            </ul>
-        </section>
-        <section id="outras-informacoes">
-            <h2>Outras Informações</h2>
-            <ul>
-                <li><span class="strong">Estado Civil:</span> Solteiro.</li>
-                <li><span class="strong">Idiomas:</span> Portugês (Nativo) e Inglês (Intermediário).</li>
-                <li><span class="strong">Habilitação:</span> Categoria B.</li>
-                <li><span class="strong">Informática:</span> Montagem/Manutenção em Computadores.</li>
-                <li><span class="strong">Veículo próprio:</span> Sim.</li>
-                <li><span class="strong">Disponibilide para viagens:</span> Sim.</li>
-                <li><span class="strong">Disponibilide para mudança de cidade:</span> Sim.</li>
-                <li><span class="strong">Filhos</span> Não.</li>
-            </ul>
-        </section>
+            <section id="experiencia">
+                <h2>Experiência Profissional</h2>
+                <section id="lima">
+                    <p><span class="strong">01/2016 – 06/2020 - LIMA E FRANCO LTDA.</span></p>
+                    <p><span class="strong">Cargo:</span> Auxiliar Administrativo.</p>
+                    <p><span class="strong">Atividades desempenhadas:</span> controle de contas a pagar/receber, atendimento ao cliente, cadastro e
+                    emissão das notas fiscais de entrada/saída, emissão de arquivos fiscais, cadastro de fornecedores e
+                    de produtos no sistema, suporte ao sistema informatizado.</p>
+                    <p><span class="strong">Local:</span> Pouso Alegre - MG.</p>
+                </section>
+                <section id="jrr">
+                    <p><span class="strong">01/2015 – 12/2015 – JRR SISTEMAS DE INFORMAÇÃO E CONSULTORIA LTDA-ME.</span></p>
+                    <p><span class="strong">Cargo:</span> Estagiário em Análise e Desenvolvimento de Sistemas.</p>
+                    <p><span class="strong">Atividades desempenhadas:</span> modelagem das bases de dados de acordo com os requisitos funcionais
+                    levantados, codificação dos scripts SQL, criação das páginas web, programação na linguagem Java
+                    com o framework Spring.</p>
+                    <p><span class="strong">Local:</span> Santa Rita do Sapucaí – MG.</p>
+                </section>
+            </section>
+            <section id="conhecimentos">
+                <h2>Qualificações</h2>
+                <ul>
+                    <li><span class="strong">Linguagens de programação:</span> Java, C#, JavaScript.</li>
+                    <li><span class="strong">Linguagens de marcação/estilo:</span> HTML5, CSS3.</li>
+                    <li><span class="strong">Banco de dados (SGBD):</span> MySql, PostgreSQL.</li>
+                    <li><span class="strong">Frameworks:</span> Spring, Hibernate.</li>
+                    <li><span class="strong">Ferramentas CASE:</span> Visual Paradigm, Eclipse, IntelliJ, Postman.</li>
+                    <li><span class="strong">Controladores de versões:</span><a href="https://github.com/RodrigoFranco91"> Git/Github.</a></li>
+                </ul>
+            </section>
+            <section id="projetos">
+                <h2>Projetos Realizados</h2>
+                <ul>
+                    <li><a href="https://github.com/RodrigoFranco91/admissional">Projeto de Teste Admissional da empresa B2ML.</a></li>
+                    <li><a href="https://github.com/RodrigoFranco91/DM114-Desenvolvimento-Android-com-Firebase">Projeto Android com Firebase.</a></li>
+                    <li><a href="https://github.com/RodrigoFranco91/DM117-Game-Unity">Game feito em Unity.</a></li>
+                    <li><a href="https://github.com/RodrigoFranco91/DM111-Desenvolvimento-de-Web-Services-com-seguranca-em-Java-no-Google-App-Engin">Projeto Java com Google App Engine.</a></li>
+                </ul>
+            </section>
+            <section id="outras-informacoes">
+                <h2>Outras Informações</h2>
+                <ul>
+                    <li><span class="strong">Estado Civil:</span> Solteiro.</li>
+                    <li><span class="strong">Idiomas:</span> Portugês (Nativo) e Inglês (Intermediário).</li>
+                    <li><span class="strong">Habilitação:</span> Categoria B.</li>
+                    <li><span class="strong">Informática:</span> Montagem/Manutenção em Computadores.</li>
+                    <li><span class="strong">Veículo próprio:</span> Sim.</li>
+                    <li><span class="strong">Disponibilide para viagens:</span> Sim.</li>
+                    <li><span class="strong">Disponibilide para mudança de cidade:</span> Sim.</li>
+                    <li><span class="strong">Filhos</span> Não.</li>
+                </ul>
+            </section>
+    </div>
     </main>
     <footer>
-        <p>&copy; 2020 RFL Company.</p>
-        <p>Todos os direitos reservados.</p>
+        <p>&copy; 2020 RFL Company - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
