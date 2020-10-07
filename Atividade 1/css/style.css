@@ -9,6 +9,7 @@ a{
 
 li{
     list-style: none;
+    margin-bottom: 1em;
 }
 
 ul{
@@ -338,16 +339,34 @@ header h1{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 #perfil{
     padding-right: 0em;
     padding-left: 0em;
+    margin-right: 2.5em;
 }
 
 #jrr, #lima{
     padding-right: 2.5em;
+}
+
+#formacao, #projetos{
+    margin-right: 2.5em;
+}
+
+#contato div{
+    display: flex;
+    justify-content:left;
+    margin-right: 2.5em;
+}
+
+#contato, #perfil, #formacao, #experiencia, #formacao-complementar, #conhecimentos, #projetos, #outras-informacoes{
+    margin-bottom: 1.5em;
+}
+
+#perfil{
+    padding-bottom: 0.5em;
 }
 
 @-webkit-keyframes aparece {
@@ -371,7 +390,6 @@ header h1{
     .grid{
         display: grid;
         grid-template-columns: 1fr;
-    
     }
 
     li{
@@ -387,6 +405,12 @@ header h1{
     .foto-perfil{
         height: 150px;
         border-radius: 50%;
+    }
+
+    #contato div{
+        display: grid;
+        justify-content:left;
+        margin-right: 2.5em;
     }
 
 }
