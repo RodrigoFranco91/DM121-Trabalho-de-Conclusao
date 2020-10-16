@@ -397,7 +397,7 @@ header h1{
     }
 
     p{
-        text-align: justify;
+        text-align: left;
         letter-spacing: -0.5px;
         width: 95%;
     }
