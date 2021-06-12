@@ -100,8 +100,8 @@ header h1{
     margin-top: 2.5em;
 }
 
-#projetos a:hover, #contato a:hover, #conhecimentos a:hover,
-#projetos a:focus, #contato a:focus, #conhecimentos a:focus{
+#projetos a:hover, #contato a:hover, #conhecimentos a:hover, #perfil a:hover,
+#projetos a:focus, #contato a:focus, #conhecimentos a:focus, #perfil a:hover{
     text-decoration: underline;
     color: lightcoral;
 }
@@ -115,7 +115,7 @@ header h1{
     border-radius: 50%;
 }
 
-#graduacao, #jrr{
+#graduacao, #jrr, #lima{
     margin-top: 2.5em;
 }
 
@@ -321,7 +321,7 @@ header h1{
     margin-right: 2.5em;
 }
 
-#jrr, #lima{
+#jrr, #lima, #zup{
     padding-right: 2.5em;
 }
 
